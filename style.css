@@ -1,0 +1,157 @@
+html {
+    scroll-padding-top: 150px; 
+    scroll-behavior: smooth; 
+}
+header{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 2100;
+    background-color: white;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo{
+    max-width: 1000px;
+    max-height: 100px;
+    object-fit: contain;
+    margin: 0 auto;
+
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    align-items: center;
+
+
+    
+}
+.menu button{
+    text-decoration: none;
+    margin: 35px;
+    color:white;
+    font-weight: bold;
+    background-color: green;
+    padding: 8px;
+    border-radius: 8px;
+    font-family: "Press Start 2P", system-ui;
+    
+
+}
+
+.titulo{
+    display:inline-block;
+    color:green; 
+    font-size: 25px; ;
+    font-weight: bold;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    font-family: "Press Start 2P", system-ui;
+}
+
+.subTitulo{
+    display:inline-block;
+    color:green; 
+    font-size: 15px; ;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    font-family: "Press Start 2P", system-ui;
+    display: flex;
+    flex-direction: column;
+}
+.carrosselInicial {
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden; 
+    border-radius: 8px;
+    background-color: green;
+}
+.carrosselInformacoes {
+    position: relative;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    overflow: hidden; 
+    border-radius: 8px;
+    background-color: red;
+}
+.carousel-inner{
+    height: 460px;
+}
+.carousel-item {
+    height: 100%;
+    background-color: green;
+}
+
+.paginaSet{
+    display: flex;
+    flex-direction: row;
+    min-width: 100%;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 30px 100px;
+}
+.galeria-imagens {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+.paginaSet .logo{
+    max-height: 210px;
+    max-width: 300px;
+    width: auto;
+    margin-bottom: 20px;
+    margin: 0;
+    object-fit: contain;
+}
+.textoCarrossel{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+    overflow: hidden;
+}
+.textoComum{
+    display:inline-block;
+    color:white; 
+    font-size: 20px; ;
+    margin-left: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-right: 80px;
+    font-family: "Fira Code", monospace;
+    display: flex; 
+    flex-direction: column;
+}
+.carousel-control-prev, .carousel-control-next {
+    width: 50px;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    opacity: 0.8;
+    z-index: 10;
+}
+
+.carousel-control-prev {
+    left: 10px;
+}
+.carousel-control-next {
+    right: 10px;
+}
+.fundoVerde{
+    background-color: green;
+    margin-top: 90px;
+    margin-bottom: 100px;
+    padding-bottom: 50px;
+}
